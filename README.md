@@ -58,5 +58,5 @@ Blinkit generates millions of transactions daily across multiple locations. With
 
 
 ### 6.	Screenshots / Demos
-Show what the dashboard looks like. - ![Alt text]([https://github.com/username/repo/assets/image.png](https://github.com/teena-chaudhary/Blink-It-Dashboard/blob/main/Snapshot%20of%20the%20dashboard.png))
+Show what the dashboard looks like. - ([https://github.com/username/repo/assets/image.png](https://github.com/teena-chaudhary/Blink-It-Dashboard/blob/main/Snapshot%20of%20the%20dashboard.png))
 
