@@ -7,82 +7,56 @@ An interactive Power BI dashboard designed to analyze Blinkit’s sales, custome
 ### 2.	Short Description / Purpose
 The Blinkit Dashboard provides a data-driven view of sales, customer behavior, and product performance.
 
-Example: 
-The Snowy Analytics Dashboard is a visually engaging and analytical Power BI report designed to help users explore and compare over 499 ski resorts across 38 countries and 5 continents. The dashboard focuses on highlighting major ski resort features like summer skiing availability, night skiing, lift types, and slope difficulty. This tool is intended for use by tourism analysts, winter sports enthusiasts, travel companies, and data-driven strategists who seek to understand trends and characteristics of ski resorts globally.
 
 ### 3.	Tech Stack
 List the key technologies used to build the dashboard.
 
-Example:
 The dashboard was built using the following tools and technologies:<br>
-•	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
-•	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
-•	🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
-•	📝 Data Modeling – Relationships established among tables (resorts, snow, and data_dictionary) to enable cross-filtering and aggregation.<br>
-•	📁 File Format – .pbix for development and .png for dashboard previews.
+
+- Power BI Desktop – Dashboard creation and visualization
+- Power Query – Data cleaning & transformation
+- DAX (Data Analysis Expressions) – KPIs & calculated measures
+- Data Modeling – Relationships among tables (sales, customers, products, locations)
+- File Format – .pbix for development and .png for previews/screenshots
 
 ### 4.	Data Source
-More info on where the data comes from and how it’s structured
-Example:
-Source: Ski-resort-stats.com & NASA Earth Observations. 
-
-Data on ~500 ski resorts around the world, including details on their location, prices, slopes, lifts, and seasons, as well as a complementary table with the snow cover around the world for each month of 2022.
+Blinkit sales transaction data includes Products, Categories, Orders, Customers, Locations & Delivery Times. Includes attributes such as product category, order value, profit, discount, and sales channels.
 
 
 ### 5.	Features / Highlights
-The best dashboard explanation format. 
-•	Business problem
-•	Goal of the dashboard
-•	Walk through of key visuals (briefly!)
-•	Business impact & Insights
 
-Example:
-•	Business Problem
-The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries. 
+Blinkit generates millions of transactions daily across multiple locations. Without proper visualization, it’s difficult to answer:
 
-Key questions such as:
-Which regions offer the most family-friendly or expert-level skiing?
-Where is summer skiing available?
-What countries have the most well-equipped resorts?
-… are difficult to answer quickly with raw data.
+* Which product categories generate the most revenue?
+* Which cities or outlets perform best?
+* How do discounts impact sales and profitability?
+* What customer segments drive the most orders?
+  
+- Goal of the Dashboard
 
-•	Goal of the Dashboard
-To deliver an interactive visual tool that:
-Enables users to explore ski resorts globally.
-Supports decisions such as vacation planning, regional marketing, or infrastructure investment.
-Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
+* Provide sales and profitability insights at a glance
+* Help managers identify top-performing products and regions
+* Track customer purchase patterns to support marketing campaigns
+* Improve decision-making in pricing, discounting, and inventory management
 
-•	Walkthrough of Key Visuals
--	Key KPIs (Top Left)
-Total number of resorts: 499
-Resorts with summer skiing: 29
-Resorts with night skiing: 204
-Child-friendly resorts: 495
-Countries covered: 38
-Continents represented: 5
--	Continent Filter Panel
-An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
--	Top Countries with Most Resorts (Bar Chart)
-Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
--	Slopes by Resort (Line Chart)
-Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
--	 Resorts by Skill Level (Dual Line Charts)
-Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
--	Elevation Stats (Grouped Bar Chart)
-Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
--	Lift Types by Resort (Stacked Bar Chart)
-Stacked bar chart showing:
-Gondola lifts
-Chair lifts
-Surface lifts
-Total lifts
-This helps users gauge resort infrastructure and capacity.
 
-•	Business Impact & Insights
-Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain).
-Strategic Expansion: Resort developers can spot underdeveloped regions with high potential.
-Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty.
-Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
+- Walkthrough of Key Visuals
+  
+* KPIs (Top Row) → Total Sales, Profit, Orders, Avg. Order Value
+* Category Sales (Bar/Tree Map) → Breakdown of revenue by product categories
+* Sales by Region/City (Map/Bar) → Regional contribution to total sales
+* Profit vs. Discount (Scatter Chart) → Correlation between discounts and profit margins
+* Customer Segmentation (Donut/Bar) → Orders split by customer type, gender, or loyalty segment
+* Trend Analysis (Line Chart) → Monthly/Weekly sales and order growth
+
+
+- Business Impact & Insights
+
+* Revenue Optimization: Identify high-performing products and locations
+* Cost Efficiency: Monitor how discounts impact profitability
+* Customer Engagement: Understand purchase patterns for targeted campaigns
+* Strategic Growth: Spot underperforming areas and expansion opportunities
+
 
 ### 6.	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
