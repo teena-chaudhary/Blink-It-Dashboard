@@ -58,6 +58,6 @@ Blinkit generates millions of transactions daily across multiple locations. With
 
 
 ### 6.	Screenshots / Demos
-Show what the dashboard looks like. -
+
 
 <img width="572" height="326" alt="Snapshot of the dashboard" src="https://github.com/user-attachments/assets/dbfdc08f-3e18-4943-ab84-664498594f5c" />
